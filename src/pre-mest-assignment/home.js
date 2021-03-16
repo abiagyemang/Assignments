@@ -25,6 +25,8 @@ function Home() {
              <h1>Input Field</h1>
             <InputField type="text" placeholder="username"/>
             <InputField type="text" placeholder="password"/>
+            <Button text="login" color="#1e88e5"/>
+            <Button text="Register" color="#1e88e5"/>
             <h1>Radio Buttom</h1>
 
             <InputField type="radio"/>

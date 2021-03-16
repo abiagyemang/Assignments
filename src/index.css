@@ -28,8 +28,11 @@ margin: 6px;
 color: #fff;
 cursor: pointer;
 border-radius: 5px;
-border-style: dashed;
+border-style: groove;
 font-weight: 500;
+font-size: large;
+font-style: oblique;
+background-color: rgb(245, 136, 150);
 
 }
 
