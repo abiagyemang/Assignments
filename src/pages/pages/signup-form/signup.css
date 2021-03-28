@@ -1,0 +1,349 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.maindiv {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* .topdiv {
+    display: flex;
+    flex: 0.1;
+    padding-bottom: 50;
+} */
+
+.bottomdiv {
+    display: flex;
+    flex: 0.9;
+
+}
+
+
+.leftbottomdiv {
+    display: flex;
+    flex: 0.6;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.rightbottomdiv {
+    display: flex;
+    flex: 0.4;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    top: 80px;
+} 
+
+.pic2{
+    width: 85%;
+    height: 85%;
+}
+
+.formdiv {
+    width: 70%;
+    height: 65%;
+    position: relative;
+    bottom: -40px;
+    left: 120px;
+    display: flex;
+    background-color: lightgray;
+    padding: 1.5em;
+    border-radius: 1em;
+    box-shadow: 0px 0px 5px 1px gray;
+
+}
+
+  .avatar1{
+     position: relative;
+      width: 30%;
+      height: 20%;
+      bottom: 60px;
+      left: 90px ;
+ }  
+
+
+ 
+
+.form-control1{
+    position: relative;
+    bottom: -108px;
+    right: 130px;
+    display: flex;
+    border: none;
+    border-bottom: 10px solid rgb(236, 119, 125);
+    background: white;
+    height: 30px;
+    color: rgb(9, 9, 10);
+    font-size: 18px;
+    font-style: italic;
+    border-radius: 50px;  
+    
+}
+
+.form-control2{
+    position: relative;
+    bottom: -120px;
+    right: 130px;
+    display: flex;
+    border: none;
+    border-bottom: 10px solid rgb(236, 119, 125);
+    background: transparent;
+    height: 30px;
+    color: rgb(9, 9, 10);
+    font-size: 18px;
+    font-style: italic;
+    border-radius: 50px;  
+    
+}
+
+.form-control3{
+    position: relative;
+    bottom: -120px;
+    right: 130px;
+    display: flex;
+    border: none;
+    border-bottom: 10px solid rgb(236, 119, 125);
+    background: transparent;
+    height: 30px;
+    color: rgb(9, 9, 10);
+    font-size: 18px;
+    font-style: italic;
+    border-radius: 50px;  
+    
+}
+
+.form-control4{
+    position: relative;
+    bottom: -135px;
+    right: 130px;
+    display: flex;
+    border: none;
+    border-bottom: 10px solid rgb(236, 119, 125);
+    background: white;
+    height: 30px;
+    color: rgb(9, 9, 10);
+    font-size: 18px;
+    font-style: italic;
+    border-radius: 50px;  
+    
+}
+ 
+
+
+.form-group1{
+    position: relative;
+    bottom: -100px;
+    right: 70px;
+    font-size: 16px;
+    font-style: oblique;
+}
+
+    .form-group2{
+    position: relative;
+    bottom: -110px;
+    right: 60px;
+    font-size: 16px;
+    font-style: oblique;
+    }
+
+    .form-group3{
+        position: relative;
+        bottom: -115px;
+        right: 70px;
+        font-size: 16px;
+        font-style: oblique;
+        }
+
+        .form-group4{
+            position: relative;
+            bottom: -130px;
+            right: 85px;
+            font-size: 16px;
+            font-style: oblique;
+            }
+            .ss{
+                position: relative;
+                bottom: -140px;
+                right: 50px;
+            }
+            
+            .a{
+                position: relative;
+                bottom: -165px;
+                right: 140px;
+                font-size: smaller;
+            }
+                    
+
+
+
+
+
+
+
+@media screen and (max-width:960px) {
+    .leftbottomdiv {
+        display: none;
+    }
+    .rightbottomdiv {
+        display: flex;
+        /* background-color: brown; */
+        flex: 1;
+        background-image: url('./pic1.svg');
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+
+     .formdiv {
+        display: flex;
+        /* background-color: green;  */
+         width: 55%;
+        height: 70%;
+        box-shadow: 0px 0px 5px 1px gray;
+         background: transparent;
+    }  
+
+    .form-control1{
+        position: relative;
+        bottom: -95px;
+        right: 120px;
+        display: flex;
+        border: none;
+        border-bottom: 10px solid gray;
+        background: white;
+        height: 40px;
+        color: rgb(9, 9, 10);
+        font-size: 18px;
+        font-style: italic;
+        border-radius: 50px;  
+        
+    }
+    
+    .form-control2{
+        position: relative;
+        bottom: -95px;
+        right: 120px;
+        display: flex;
+        border: none;
+        border-bottom: 10px solid gray;
+        background: white;
+        height: 30px;
+        color: rgb(9, 9, 10);
+        font-size: 18px;
+        font-style: italic;
+        border-radius: 50px;  
+        
+    }
+    
+    .form-control3{
+        position: relative;
+        bottom: -95px;
+        right: 120px;
+        display: flex;
+        border: none;
+        border-bottom: 10px solid gray;
+        background:white;
+        height: 30px;
+        color: rgb(9, 9, 10);
+        font-size: 18px;
+        font-style: italic;
+        border-radius: 50px;  
+        
+    }
+    
+    .form-control4{
+        position: relative;
+        bottom: -100px;
+        right: 120px;
+        display: flex;
+        border: none;
+        border-bottom: 10px solid gray;
+        background: white;
+        height: 30px;
+        color: rgb(9, 9, 10);
+        font-size: 18px;
+        font-style: italic;
+        border-radius: 50px;  
+        
+    }
+    
+    
+    
+    
+    .form-group1{
+        position: relative;
+        bottom: -95px;
+        right: 70px;
+        color: black;
+        font-size: 16px;
+        font-style: oblique;
+    }
+    
+        .form-group2{
+        position: relative;
+        bottom: -95px;
+        right: 60px;
+        color: black;
+        font-size: 16px;
+        font-style: oblique;
+        }
+    
+        .form-group3{
+            position: relative;
+            bottom: -90px;
+            right: 70px;
+            font-size: 16px;
+            font-style: oblique;
+            }
+    
+            .form-group4{
+                position: relative;
+                bottom: -90px;
+                right: 80px;
+                font-size: 16px;
+                font-style: oblique;
+                }
+            
+        
+    
+    
+    
+
+    
+
+.rightbottomdiv {
+    position: relative;
+    top: 50px;
+} 
+
+.avatar1{
+    position: relative;
+     width: 35%;
+     height: 20%;
+     bottom: 65px;
+     left: 80px ;}
+
+
+
+.ss{
+    position: relative;
+    bottom: -120px;
+    right: 50px;
+}
+
+.a{
+    position: relative;
+    bottom: -165px;
+    right: 130px;
+    font-size: smaller;
+}
+
+
+}
